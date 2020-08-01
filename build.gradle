@@ -3,7 +3,9 @@ apply plugin: 'java'
 sourceCompatibility = 1.8
 compileJava.options.encoding = 'UTF-8'
 
-version = '7.8.0'
+// src/main/java/resources/plugin-descriptor.properties 도 같이 수정해야 합니다.
+version = '7.8.1'
+
 jar {
     manifest {
         attributes 'Implementation-Title': 'Elasticsearch Jaso Analyzer Plugin',
