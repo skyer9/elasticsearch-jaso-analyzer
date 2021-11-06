@@ -38,6 +38,7 @@ test {
 task buildPluginZip(type: Zip, dependsOn:[':jar']) {
     baseName = 'jaso-analyzer-plugin'
     classifier = 'plugin'
+    from 'build/libs'
     from 'src/main/resources'
 }
 
