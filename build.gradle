@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-version = '7.15.0'
+version = '7.15.1'
 jar {
     manifest {
         attributes 'Implementation-Title': 'Elasticsearch Jaso Analyzer Plugin',
