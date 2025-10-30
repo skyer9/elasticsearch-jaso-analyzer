@@ -29,7 +29,8 @@ test {
     systemProperties 'property': 'value'
 }
 
-task buildPluginZip(type: Zip, dependsOn:[':jar']) {
+tasks.register('buildPluginZip', Zip) {
+    dependsOn(':jar')
     archiveBaseName = 'jaso-analyzer-plugin'
     archiveClassifier = 'plugin'
     from 'build/libs'

@@ -3,3 +3,4 @@ build/
 .git/
 .gradle/
 .DS_Store
+docker/*.zip
